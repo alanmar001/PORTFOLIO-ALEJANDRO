@@ -3496,6 +3496,16 @@ hr {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .cs_video_portfolio_custom {
+    height: 370px !important;
+    width: 420px !important;
+  }
+    /* Estilos para tablet y dispositivos más pequeños */
+    /* Aquí puedes colocar los estilos específicos para tablet y dispositivos más pequeños */
+    /* Por ejemplo, ajustes de diseño, tamaños de fuente, márgenes, etc. */
+}
+
 
 .cs_pagenation.cs_style_1 {
   display: -webkit-box;
