@@ -80,6 +80,7 @@
                     <li>Bello Escobedo Lucia Guadalupe</li>
                     <li>al2193051868@azc.uam.mx</li>
                     <li>Palacios Olmedo Alejandro</li>
+                    <a class="cs_font_18" href="#">Instagram <i class="fa-brands fa-instagram"></i></a>
                     <li>al2203006653@azc.uam.mx</li>
                   </ul>
                 </div>
@@ -88,6 +89,13 @@
                   <p class="cs_primary_color cs_font_18 cs_opacity_07 mb-0">Ciudad de México, México</p>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d240863.71588891014!2d-99.308765293148!3d19.39098293272764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce0026db097507%3A0x54061076265ee841!2sMexico%20City%2C%20CDMX!5e0!3m2!1sen!2smx!4v1706477223766!5m2!1sen!2smx" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
+                <div>
+                  <h4>Relájate escuchando algo</h4>
+                </div>
+                <audio id="audioPlayer" controls autoplay style="width: 320px;">
+                  <source src="/assets/audio/musica-fondo.mp3" type="audio/mp3">
+                  Tu navegador no soporta la etiqueta de audio HTML5.
+                </audio>
                 <div class="cs_height_75 cs_height_lg_65"></div>
               </div>
               <div class="col-xxl-8 offset-xxl-1">
@@ -135,6 +143,17 @@
       </div>
       <div class="cs_height_100 cs_height_lg_80"></div>
     </section>
+    
+
+    <script>
+      var audio = document.getElementById('audioPlayer');
+      audio.volume = 0.3; // Establece el volumen al 30% (0.3)
+
+      // Reproduce el audio cuando se cargue la página
+      window.onload = function() {
+        audio.play();
+      };
+    </script>
     <!-- End contact Section -->
   </main>
   <!-- Start Footer Section -->
