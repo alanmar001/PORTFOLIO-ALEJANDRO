@@ -1,4 +1,44 @@
 @import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Unbounded", sans-serif;
+}
+
+*::-webkit-scrollbar {
+    width: 6px; /* Ancho de la barra de desplazamiento */
+}
+
+*::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color del fondo de la barra de desplazamiento */
+}
+
+*::-webkit-scrollbar-thumb {
+    background: #888; /* Color del "pulgar" de la barra de desplazamiento */
+    border-radius: 3px; /* Radio de borde del "pulgar" */
+}
+
+*::-moz-scrollbar {
+    width: 6px; /* Ancho de la barra de desplazamiento */
+}
+
+*::-moz-scrollbar-track {
+    background: #f1f1f1; /* Color del fondo de la barra de desplazamiento */
+}
+
+*::-moz-scrollbar-thumb {
+    background: #888; /* Color del "pulgar" de la barra de desplazamiento */
+    border-radius: 3px; /* Radio de borde del "pulgar" */
+}
+
+*:scrollbar-width {
+    thin; /* Ancho de la barra de desplazamiento */
+}
+
+*:scrollbar-color {
+    #888 #f1f1f1; /* Color del "pulgar" y del fondo de la barra de desplazamiento */
+}
+
+
 body,
 html {
   color: rgba(32, 32, 32, 0.7);
@@ -7,7 +47,6 @@ html {
   font-weight: 400;
   line-height: 1.666em;
   overflow-x: hidden;
-  background-color: #fffcfc;
   margin: 0;
   padding: 0;
 }
@@ -1702,6 +1741,14 @@ hr {
 .cs_focus_color,
 .cs_focus_color_hover:hover {
   color: #5533d8;
+}
+
+#experience {
+  background-color: #5533d8;
+}
+
+#our-work {
+    background-color: #5533d8;
 }
 
 .cs_focus_bg,
@@ -3501,9 +3548,6 @@ hr {
     height: 370px !important;
     width: 420px !important;
   }
-    /* Estilos para tablet y dispositivos más pequeños */
-    /* Aquí puedes colocar los estilos específicos para tablet y dispositivos más pequeños */
-    /* Por ejemplo, ajustes de diseño, tamaños de fuente, márgenes, etc. */
 }
 
 
@@ -4490,7 +4534,6 @@ hr {
   max-width: 65rem;
 }
 
-/*-----------Portfolio Style 2------------*/
 .cs_portfolio_top_wrap {
   padding: 0 110px 80px 110px;
   border-bottom: 1px solid rgba(255, 252, 252, 0.5);
